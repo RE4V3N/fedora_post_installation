@@ -22,3 +22,4 @@ sudo dnf clean packages
 
 #Open RGB
 sudo dnf install openrgb-udev-rules
+Exec=/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=openrgb org.openrgb.OpenRGB --startminimized --profile "fedora"
