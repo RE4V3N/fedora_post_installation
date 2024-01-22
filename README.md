@@ -18,3 +18,6 @@ sudo nano /etc/environment
 __GL_SYNC_DISPLAY_DEVICE=DP-2
 
 sudo dnf clean packages
+
+#Open RGB
+sudo dnf install openrgb-udev-rules
