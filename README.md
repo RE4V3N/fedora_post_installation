@@ -2,6 +2,7 @@
 
 # Theme
 sudo dnf install adw-gtk3-theme papirus-icon-theme
+flatpak install org.gtk.Gtk3theme.adw-gtk3 org.gtk.Gtk3theme.adw-gtk3-dark
 
 #Xpadneo
 sudo dnf copr enable sentry/xpadneo
