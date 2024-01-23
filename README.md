@@ -31,3 +31,15 @@ dracut -f
 sudo dnf install openrgb-udev-rules
 Exec=/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=openrgb org.openrgb.OpenRGB --startminimized --profile "fedora"
 ```
+
+### Repo RPM Fusion
+```
+sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
+sudo dnf install https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
+```
+
+### Alias
+```
+sudo nano ~/.bashrc
+alias update-grub='sudo grub2-mkconfig -o /boot/grub2/grub.cfg'
+```
