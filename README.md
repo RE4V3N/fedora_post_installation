@@ -11,6 +11,10 @@ flatpak install org.gtk.Gtk3theme.adw-gtk3 org.gtk.Gtk3theme.adw-gtk3-dark
 sudo dnf copr enable sentry/xpadneo
 sudo dnf install xpadneo
 ```
+### Steam flatpak
+```
+sudo dnf install steam-devices
+```
 
 ### Nvidia
 ```
