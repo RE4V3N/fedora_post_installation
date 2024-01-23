@@ -43,3 +43,8 @@ sudo dnf install https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfre
 sudo nano ~/.bashrc
 alias update-grub='sudo grub2-mkconfig -o /boot/grub2/grub.cfg'
 ```
+
+### Si problème avec Steam Flatpak
+```
+flatpak install org.freedesktop.Platform.GL32.nvidia-545-29-06
+```
