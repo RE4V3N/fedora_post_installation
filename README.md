@@ -3,7 +3,7 @@
 ### Theme
 ```
 sudo dnf install adw-gtk3-theme papirus-icon-theme
-flatpak update org.gtk.Gtk3theme.adw-gtk3 org.gtk.Gtk3theme.adw-gtk3-dark
+flatpak install org.gtk.Gtk3theme.adw-gtk3 org.gtk.Gtk3theme.adw-gtk3-dark
 sudo dnf copr enable peterwu/rendezvous
 sudo dnf install bibata-cursor-themes
 ```
@@ -29,7 +29,7 @@ sudo nano /etc/modprobe.d/nvidia.conf
 options nvidia_drm modeset=1
 sudo nano /etc/dracut.conf.d/nvidia.conf
 add_drivers+=" nvidia nvidia_modeset nvidia_uvm nvidia_drm " install_items+=" /etc/modprobe.d/nvidia.conf "
-dracut -f
+sudo dracut -f
 ```
 
 ### Open RGB
@@ -42,7 +42,7 @@ Exec=/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=openrgb org.op
 ```
 sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
 sudo dnf install https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
-dnf groupupdate core
+sudo dnf groupupdate core
 ```
 
 ### Alias
@@ -53,7 +53,7 @@ alias update-grub='sudo grub2-mkconfig -o /boot/grub2/grub.cfg'
 
 ### Si problème avec Steam Flatpak
 ```
-flatpak update org.freedesktop.Platform.GL32.nvidia-545-29-06
+flatpak install org.freedesktop.Platform.GL32.nvidia-545-29-06
 ```
 
 
@@ -65,5 +65,5 @@ sudo dnf install -y gstreamer1-plugins-{bad-freeworld,ugly}
 
 ### Flatpak
 ```
-flatpak update com.bitwarden.desktop com.discordapp.Discord com.github.tchx84.Flatseal com.heroicgameslauncher.hgl com.mattjakeman.ExtensionManager com.spotify.Client com.valvesoftware.Steam com.visualstudio.code de.haeckerfelix.Fragments io.freetubeapp.FreeTube io.github.giantpinkrobots.flatsweep io.gitlab.news_flash.NewsFlash net.cozic.joplin_desktop net.lutris.Lutris net.lutris.Lutris net.lutris.Lutris org.onlyoffice.desktopeditors org.openrgb.OpenRGB org.raspberrypi.rpi-imager org.ryujinx.Ryujinx org.signal.Signal org.videolan.VLC 
+flatpak install com.bitwarden.desktop com.discordapp.Discord com.github.tchx84.Flatseal com.heroicgameslauncher.hgl com.mattjakeman.ExtensionManager com.spotify.Client com.valvesoftware.Steam com.visualstudio.code de.haeckerfelix.Fragments io.freetubeapp.FreeTube io.github.giantpinkrobots.flatsweep io.gitlab.news_flash.NewsFlash net.cozic.joplin_desktop net.lutris.Lutris org.onlyoffice.desktopeditors org.openrgb.OpenRGB org.raspberrypi.rpi-imager org.ryujinx.Ryujinx org.signal.Signal
 ```
