@@ -3,7 +3,7 @@
 ### Theme
 ```
 sudo dnf install adw-gtk3-theme papirus-icon-theme
-flatpak install org.gtk.Gtk3theme.adw-gtk3 org.gtk.Gtk3theme.adw-gtk3-dark
+flatpak update org.gtk.Gtk3theme.adw-gtk3 org.gtk.Gtk3theme.adw-gtk3-dark
 sudo dnf copr enable peterwu/rendezvous
 sudo dnf install bibata-cursor-themes
 ```
@@ -53,7 +53,7 @@ alias update-grub='sudo grub2-mkconfig -o /boot/grub2/grub.cfg'
 
 ### Si problème avec Steam Flatpak
 ```
-flatpak install org.freedesktop.Platform.GL32.nvidia-545-29-06
+flatpak update org.freedesktop.Platform.GL32.nvidia-545-29-06
 ```
 
 
@@ -65,5 +65,5 @@ sudo dnf install -y gstreamer1-plugins-{bad-freeworld,ugly}
 
 ### Flatpak
 ```
-flatpak install com.bitwarden.desktop com.discordapp.Discord com.github.tchx84.Flatseal com.heroicgameslauncher.hgl com.mattjakeman.ExtensionManager com.spotify.Client com.valvesoftware.Steam com.visualstudio.code de.haeckerfelix.Fragments io.freetubeapp.FreeTube io.github.giantpinkrobots.flatsweep io.gitlab.news_flash.NewsFlash net.cozic.joplin_desktop net.lutris.Lutris net.lutris.Lutris net.lutris.Lutris org.onlyoffice.desktopeditors org.openrgb.OpenRGB org.raspberrypi.rpi-imager org.ryujinx.Ryujinx org.signal.Signal org.videolan.VLC 
+flatpak update com.bitwarden.desktop com.discordapp.Discord com.github.tchx84.Flatseal com.heroicgameslauncher.hgl com.mattjakeman.ExtensionManager com.spotify.Client com.valvesoftware.Steam com.visualstudio.code de.haeckerfelix.Fragments io.freetubeapp.FreeTube io.github.giantpinkrobots.flatsweep io.gitlab.news_flash.NewsFlash net.cozic.joplin_desktop net.lutris.Lutris net.lutris.Lutris net.lutris.Lutris org.onlyoffice.desktopeditors org.openrgb.OpenRGB org.raspberrypi.rpi-imager org.ryujinx.Ryujinx org.signal.Signal org.videolan.VLC 
 ```
