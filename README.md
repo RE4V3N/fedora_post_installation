@@ -2,7 +2,7 @@
 
 ### Theme
 ```
-sudo dnf install adw-gtk3-theme papirus-icon-theme
+sudo dnf install adw-gtk3-theme papirus-icon-theme gnome-tweaks
 flatpak install org.gtk.Gtk3theme.adw-gtk3 org.gtk.Gtk3theme.adw-gtk3-dark
 sudo dnf copr enable peterwu/rendezvous
 sudo dnf install bibata-cursor-themes
