@@ -42,7 +42,6 @@ Exec=/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=openrgb org.op
 ```
 sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
 sudo dnf install https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
-sudo dnf groupupdate core
 ```
 
 ### Alias
@@ -51,19 +50,13 @@ sudo nano ~/.bashrc
 alias update-grub='sudo grub2-mkconfig -o /boot/grub2/grub.cfg'
 ```
 
-### Si problème avec Steam Flatpak
-```
-flatpak install org.freedesktop.Platform.GL32.nvidia-545-29-06
-```
-
-
-### Codecs
-```
-sudo dnf install -y gstreamer1-plugins-{base,good,bad-free,good-extras,bad-free-extras,ugly-free} gstreamer1-libav
-sudo dnf install -y gstreamer1-plugins-{bad-freeworld,ugly}
-```
-
 ### Flatpak
 ```
 flatpak install com.bitwarden.desktop com.discordapp.Discord com.github.tchx84.Flatseal com.heroicgameslauncher.hgl com.mattjakeman.ExtensionManager com.spotify.Client com.valvesoftware.Steam com.visualstudio.code de.haeckerfelix.Fragments io.freetubeapp.FreeTube io.github.giantpinkrobots.flatsweep io.gitlab.news_flash.NewsFlash net.cozic.joplin_desktop net.lutris.Lutris org.onlyoffice.desktopeditors org.openrgb.OpenRGB org.raspberrypi.rpi-imager org.ryujinx.Ryujinx org.signal.Signal
+
+flatapk update
+```
+### Bridges IPs Gnome boxes
+```
+sudo systemctl enable virtnetworkd.service
 ```
