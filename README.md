@@ -52,9 +52,9 @@ alias update-grub='sudo grub2-mkconfig -o /boot/grub2/grub.cfg'
 
 ### Flatpak
 ```
-flatpak install com.bitwarden.desktop com.discordapp.Discord com.github.tchx84.Flatseal com.heroicgameslauncher.hgl com.mattjakeman.ExtensionManager com.spotify.Client com.valvesoftware.Steam com.visualstudio.code de.haeckerfelix.Fragments io.freetubeapp.FreeTube io.github.giantpinkrobots.flatsweep io.gitlab.news_flash.NewsFlash net.cozic.joplin_desktop net.lutris.Lutris org.onlyoffice.desktopeditors org.openrgb.OpenRGB org.raspberrypi.rpi-imager org.ryujinx.Ryujinx org.signal.Signal
+flatpak install com.bitwarden.desktop com.discordapp.Discord com.github.tchx84.Flatseal com.heroicgameslauncher.hgl com.mattjakeman.ExtensionManager com.spotify.Client com.valvesoftware.Steam com.visualstudio.code de.haeckerfelix.Fragments io.freetubeapp.FreeTube io.github.giantpinkrobots.flatsweep io.gitlab.news_flash.NewsFlash net.cozic.joplin_desktop net.lutris.Lutris org.onlyoffice.desktopeditors org.openrgb.OpenRGB org.raspberrypi.rpi-imager org.ryujinx.Ryujinx org.signal.Signal com.github.IsmaelMartinez.teams_for_linux com.github.IsmaelMartinez.teams_for_linux com.github.IsmaelMartinez.teams_for_linux com.github.IsmaelMartinez.teams_for_linux com.github.IsmaelMartinez.teams_for_linux 
 
-flatapk update
+flatpak update
 ```
 ### Bridges IPs Gnome boxes
 ```
